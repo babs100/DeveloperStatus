@@ -8,5 +8,4 @@ language: php
   - hhvm
 
 sudo: false
-script:
-  - $TRAVIS_BUILD_DIR/vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
+script: $TRAVIS_BUILD_DIR/vendor/bin/phpunit
