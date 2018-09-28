@@ -9,5 +9,4 @@ language: php
 
 sudo: false
 script:
-  - vendor/bin/phpcs --standard=psr2 src/
-  - vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
+  - $TRAVIS_BUILD_DIR/vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
