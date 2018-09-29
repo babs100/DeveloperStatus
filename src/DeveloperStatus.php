@@ -39,7 +39,7 @@ class DeveloperStatus
         echo "Status Code = " . $code;
         if($code == 404){
 
-            return "Developer not found!";
+            return "Developer {$username}: not found!";
         }
 
         $response = json_decode($result->getBody(), true);
