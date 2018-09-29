@@ -1,3 +1,4 @@
+build: trusty
 language: php
   - 5.5
   - 5.6
@@ -5,5 +6,4 @@ language: php
   - 7.1
   - 7.2
   - hhvm
-
-script: $TRAVIS_BUILD_DIR/vendor/bin/phpunit test
+script: phpunit
