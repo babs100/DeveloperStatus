@@ -31,7 +31,7 @@ class DeveloperStatusTest extends TestCase
 
         $developerStatus = new DeveloperStatus();
 
-        $status = $developerStatus->getStatus("babs10000");
+        $status = $developerStatus->getStatus("babs100");
         echo $status;
         $this->assertNotEmpty($status);
         echo "Done!";
