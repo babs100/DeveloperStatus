@@ -15,8 +15,9 @@ $ composer require BabatundeOlajide/DeveloperStatus
 ## Usage
 
 ``` php
+$githubUsername = "rajirasaki";
 $developerStatus = new DeveloperStatus();
-$status = $developerStatus->getStatus("johndoe");
+$status = $developerStatus->getStatus($githubUsername);
 ```
 
 ## Change log
