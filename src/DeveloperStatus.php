@@ -33,7 +33,7 @@ class DeveloperStatus
             ]
         ]);
 
-        $result = $guzzleClient->get("https://api.github.com/users/{$username}?client_id=bb407a7e41c62d4e2702");
+        $result = $guzzleClient->get("https://api.github.com/users/{$username}?client_id=bb407a7e41c62d4e2702&client_secret=ff77671b9ee1bc3527a867be2481d3738a28e2ad");
         $code = $result->getStatusCode();
 
         if($code == 404){
