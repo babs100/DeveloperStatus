@@ -33,10 +33,9 @@ class DeveloperStatus
             ]
         ]);
 
-        $result = $guzzleClient->get("https://api.github.com/users/{$username}");
+        $result = $guzzleClient->get("https://api.github.com/users/{$username}?client_id=bb407a7e41c62d4e2702");
         $code = $result->getStatusCode();
 
-        echo "Status Code = " . $code;
         if($code == 404){
 
             return "Developer {$username}: not found!";

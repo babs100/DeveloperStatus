@@ -17,6 +17,7 @@ class DeveloperStatusTest extends TestCase
 {
 
     private static $guzzle;
+
     public function __construct($name = null, array $data = [], $dataName = '')
     {
         parent::__construct($name, $data, $dataName);
@@ -27,15 +28,14 @@ class DeveloperStatusTest extends TestCase
         ]);
     }
 
-    public function testTrueIsTrue(){
+    public function testGetDeveloperStatus(){
 
         $developerStatus = new DeveloperStatus();
-
+        echo "Running Test! " . __METHOD__ . "\n";
         $status = $developerStatus->getStatus("babs100");
         echo $status;
         $this->assertNotEmpty($status);
-        echo "Done!";
+        echo "\nDone!";
 
-        //$this->assertTrue(true, "It is true");
     }
 }
