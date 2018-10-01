@@ -28,14 +28,13 @@ class DeveloperStatusTest extends TestCase
         ]);
     }
 
-    public function testGetDeveloperStatus(){
-
+    public function testGetDeveloperStatus()
+    {
         $developerStatus = new DeveloperStatus();
-        echo "Running Test! " . __METHOD__ . "\n";
+        echo "\nRunning Test... " . __METHOD__ . "\n";
         $status = $developerStatus->getStatus("babs100");
         echo $status;
         $this->assertNotEmpty($status);
         echo "\nDone!";
-
     }
 }
