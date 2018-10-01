@@ -18,6 +18,11 @@ $ composer require BabatundeOlajide/DeveloperStatus
 $githubUsername = "rajirasaki";
 $developerStatus = new DeveloperStatus();
 $status = $developerStatus->getStatus($githubUsername);
+
+echo $status
+
+Result:
+Yeah, I crown you Senior Developer. Thanks for making the world a better place
 ```
 
 ## Change log
