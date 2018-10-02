@@ -27,7 +27,7 @@ Yeah, I crown you Senior Developer. Thanks for making the world a better place
 
 ## Contributing
 
-Please click [CONTRIBUTING](CONTRIBUTING.md).
+Please click [here](CONTRIBUTING.md).
 
 ## Testing
 
