@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Tests" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="1.401081">
-    <testsuite name="DeveloperStatus\Tests\DeveloperStatusTest" file="C:\xampp\htdocs\DeveloperStatus\tests\DeveloperStatusTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="1.401081">
-      <testcase name="testGetDeveloperStatus" class="DeveloperStatus\Tests\DeveloperStatusTest" classname="DeveloperStatus.Tests.DeveloperStatusTest" file="C:\xampp\htdocs\DeveloperStatus\tests\DeveloperStatusTest.php" line="31" assertions="1" time="1.401081">
-        <system-out>Running Test! DeveloperStatus\Tests\DeveloperStatusTest::testGetDeveloperStatus
+  <testsuite name="Tests" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="1.225070">
+    <testsuite name="DeveloperStatus\Tests\DeveloperStatusTest" file="C:\xampp\htdocs\DeveloperStatus\tests\DeveloperStatusTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="1.225070">
+      <testcase name="testGetDeveloperStatus" class="DeveloperStatus\Tests\DeveloperStatusTest" classname="DeveloperStatus.Tests.DeveloperStatusTest" file="C:\xampp\htdocs\DeveloperStatus\tests\DeveloperStatusTest.php" line="31" assertions="1" time="1.225070">
+        <system-out>
+Running Test... DeveloperStatus\Tests\DeveloperStatusTest::testGetDeveloperStatus
 Damn It!!! Please make the word a better place, Oh Ye Prodigal Junior Developer
 Done!</system-out>
       </testcase>
