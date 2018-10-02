@@ -25,9 +25,9 @@ Result:
 Yeah, I crown you Senior Developer. Thanks for making the world a better place
 ```
 
-## Change log
+## Contributing
 
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+Please click [CONTRIBUTING](CONTRIBUTING.md).
 
 ## Testing
 
