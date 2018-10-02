@@ -9,7 +9,7 @@ This shows a developer's rank based on the number of repositories he/she has on 
 Via Composer
 
 ``` bash
-$ composer require babatundeolajide/developer-status
+$ composer require babs100/developerstatus
 ```
 
 ## Usage
