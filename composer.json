@@ -1,12 +1,12 @@
 {
-    "name": "babs100/developer-status",
+    "name": "babatundeolajide/developer-status",
     "description": "This package show a developer rank based on github repositories",
     "type": "library",
     "license": "MIT",
     "homepage":"https://github.com/babs100/DeveloperStatus",
     "authors": [
         {
-            "name": "babs100",
+            "name": "Babatunde Olajide",
             "email": "obabs78@gmail.com"
         }
     ],
